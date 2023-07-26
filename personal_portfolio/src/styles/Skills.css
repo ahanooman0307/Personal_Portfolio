@@ -1,0 +1,37 @@
+img{
+    height: 80px;
+    width: 80px;
+    
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.skill{
+    background-color: white;
+    box-shadow: 0px 0px 0px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid black; */
+    padding: 10px;
+    transition: all 0.4s ease-in;
+    
+}
+
+.skill:hover{
+    box-shadow: -10px 10px 14px rgb(0, 42, 255);
+    transform: translateY(-10px);
+}
+
+.skill>div{
+    font-weight: 600;
+}
+
