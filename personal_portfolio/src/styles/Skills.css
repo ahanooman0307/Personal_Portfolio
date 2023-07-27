@@ -7,10 +7,14 @@ img{
 .skills{
     display: grid;
     grid-template-columns: repeat(4, 200px);
-    gap: 20px 100px;
+    gap: 20px 50px;
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin-left: 290px;
+    margin-right: 290px;
+
+    
 }
 
 .skill{
@@ -28,7 +32,7 @@ img{
 
 .skill:hover{
     box-shadow: -10px 10px 14px rgb(0, 42, 255);
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 
 .skill>div{
