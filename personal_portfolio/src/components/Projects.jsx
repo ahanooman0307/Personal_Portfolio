@@ -8,11 +8,22 @@ const Projects =() =>{
             <div className="title">Projects</div>
             <div className="projects">
                 <div className="project">
-                <img src={require('../utils/images/weather.png')} />      </div>
+                <img src={require('../utils/images/weather.png')} />
+                </div>
 
-                <div className="project">BlackJack</div>
-                <div className="project">Social Media Platform</div>
-                <div className="project">Tic Tac Toe</div>
+                <div className="project">
+                <img src={require('../utils/images/blackjack.png')} />
+                </div>
+
+                <div className="project">
+                <img src={require('../utils/images/smp.png')} />
+
+                </div>
+
+                <div className="project">
+                <img src={require('../utils/images/tic-tac-toe.png')} />
+                </div>
+
             </div>
         </div>
     )

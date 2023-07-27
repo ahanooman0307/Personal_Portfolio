@@ -1,4 +1,22 @@
 .project>img{
-    width: 600px;
-    height: 500px;
+    width: 400px;
+    height: 300px;
+    border: 10px solid rgb(0, 0, 0);
+    transition: all 0.3s ease-in;
+
+}
+
+.project>img:hover{
+    transform: scale(110%);
+    box-shadow: -10px 10px 30px  rgb(39, 57, 255);
+}
+
+
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+    justify-content: center;
 }
