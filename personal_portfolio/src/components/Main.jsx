@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Introduction from './Introduction';
 import Header from './Header';
 import Skills from './Skills';
+import Projects from './Projects';
 
 const Main = () =>{
     return( 
@@ -9,6 +10,7 @@ const Main = () =>{
     <Header></Header>
     <Introduction></Introduction>
     <Skills></Skills>
+    <Projects></Projects>
     </div>
 
     )
