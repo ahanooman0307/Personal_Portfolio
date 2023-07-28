@@ -1,8 +1,9 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Introduction from './Introduction';
 import Header from './Header';
 import Skills from './Skills';
 import Projects from './Projects';
+import Contact from './Contact';
 
 const Main = () =>{
     return( 
@@ -11,6 +12,7 @@ const Main = () =>{
     <Introduction></Introduction>
     <Skills></Skills>
     <Projects></Projects>
+    <Contact></Contact>
     </div>
 
     )
