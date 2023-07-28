@@ -55,3 +55,24 @@ img{
     font-weight: 600;
 }
 
+@media screen and (max-width: 600px)
+{
+    /* html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    } */
+
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(2, 10px);
+        color: black;
+        gap:  20px 200px;
+        justify-content: flex-end;    
+        align-items: center;
+        margin-left: 230px;
+    }
+
+    
+  
+}
+

@@ -44,5 +44,13 @@ a{
     font-size: 21px;
 }
 
+@media screen and (max-width: 600px)
+{
+  .header{
+    font-size: small;
+    gap: 50px;
+  }
+}
+
 
 

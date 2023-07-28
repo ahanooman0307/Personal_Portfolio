@@ -24,3 +24,14 @@
     gap: 50px 50px;
     justify-content: center;
 }
+
+@media screen and (max-width: 600px)
+{
+    .project>img{
+        width: 350px;
+        height: 270px;
+        border: 10px solid rgb(0, 0, 0);
+        transition: all 0.3s ease-in;
+    
+    }
+}
