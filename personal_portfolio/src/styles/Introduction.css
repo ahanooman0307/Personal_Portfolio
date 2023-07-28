@@ -1,27 +1,39 @@
 body{
-    background-color: white;
+    background-color: #ECF0F3;
+    
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 .container{
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .greeting{
     margin-bottom: 15px;
+    font-size: larger;
+    font-family: sans-serif;
 }
 
 .name{
-    color: rgb(14, 1, 252);
+    color: black;
     font-size: 32px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .about{
     max-width: 800px;
     display: flex;
     text-align: center;
+    font-size: large;
 }

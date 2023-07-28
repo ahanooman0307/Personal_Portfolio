@@ -6,7 +6,7 @@ const Skills = () =>{
         
         
           
-        <div className="skillsContainer">
+        <div id = "skill_section" className="skillsContainer">
 
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
 

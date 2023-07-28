@@ -18,7 +18,7 @@ const Contact = () =>{
         });
     };
     return(
-        <div className="contactContainer">
+        <div className="contactContainer" id = "contact_section">
             <div className="title">Contact Me</div>
             <form  ref = {form} onSubmit={sendEmail}>
                 {/* <h3>Contact Me</h3> */}

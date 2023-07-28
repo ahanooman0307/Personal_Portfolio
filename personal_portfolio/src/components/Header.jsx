@@ -6,10 +6,10 @@ const Header = () =>{
     <div className="header">
         <div className="left">Akshay Hanooman</div>
         <div className="right">
-            <button className="about">About</button>
-            <button className="skills_tab">Skills</button>
-            <button className="projects">Projects</button>
-            <button className="contact">Contact</button>
+            <a href="#about_section" >About</a>
+            <a href="#skill_section" >Skills</a>
+            <a href="#project_section" >Projects</a>
+            <a href="#contact_section" >Contact</a>
         </div>
     </div>
     )
