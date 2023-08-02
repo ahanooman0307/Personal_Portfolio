@@ -44,6 +44,7 @@ a{
     font-size: 21px;
 }
 
+/* for phones */
 @media screen and (max-width: 600px)
 {
   .header{
