@@ -25,6 +25,7 @@
     justify-content: center;
 }
 
+/* for phones */
 @media screen and (max-width: 600px)
 {
     .project>img{
